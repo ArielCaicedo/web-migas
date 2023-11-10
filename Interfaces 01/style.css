@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* Cambié la fuente por una más común */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-image: url("img/foto-de-productos.jpg");
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    /* Añadí más espacio vertical */
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    /* Cambié a inline-block para mejor alineación */
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    /* Hace que los enlaces resalten más */
+}
+
+/* Estilos para las secciones */
+section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("img/Seccion.jpg");
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    /* Cambié el color del texto para mejor contraste con el fondo */
+
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
+
+td p {
+    font-weight: bold;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+}
+
+/* Estilos para los títulos */
+h2 {
+    color: #e74c3c;
+    margin-top: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Estilos para el mapa embebido */
+iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+    /* Añadí una altura al mapa para mejor visualización */
+}
+
+#idiomas {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
